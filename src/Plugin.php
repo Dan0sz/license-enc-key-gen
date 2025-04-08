@@ -35,11 +35,12 @@ class Plugin {
                 position: fixed;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50%);
+                transform: translate(-50%, -50%);
                 width: 800px;
                 height: 400px;
                 box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2);
-                border-radius: 3rem;
+                border-radius: 2.5rem;
+                overflow: hidden;
             }
 
             .daan-dev-license-enc-key-gen-popup-content {
