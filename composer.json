@@ -1,0 +1,18 @@
+{
+    "name": "daan/license-enc-key-gen",
+    "description": "Display a pop-up with a randomly generated encryption key for use with Daan.dev plugins.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daan\\LicenseEncKeyGen\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dan0sz",
+            "email": "18595395+Dan0sz@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
